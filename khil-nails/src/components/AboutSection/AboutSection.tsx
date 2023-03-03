@@ -8,7 +8,7 @@ import styles from './AboutSection.module.scss'
 
 const AboutSection: FC = () => {
   return (
-    <div className={styles.block}>
+    <section id="about" className={styles.block}>
       <h1 className={styles.title}>
         Обо <span className={styles.titleWord}>мне</span>
       </h1>
@@ -34,7 +34,7 @@ const AboutSection: FC = () => {
         <div className={styles.secondFrame}></div>
       </div>
       <img className={styles.cat} src={catIcon} alt="cat" />
-    </div>
+    </section>
   )
 }
 
