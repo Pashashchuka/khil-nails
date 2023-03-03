@@ -18,7 +18,7 @@ export const GreetingSection: FC = () => {
         <img className={styles.photo} src={zlataPhoto} alt="me" />
         <div className={styles.frame}></div>
       </div>
-      <img className={styles.firstCat} src={catIcon} alt="cat" />
+      <img className={styles.cat} src={catIcon} alt="cat" />
     </div>
   )
 }

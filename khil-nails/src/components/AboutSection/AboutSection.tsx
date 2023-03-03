@@ -1,5 +1,9 @@
 import { FC } from 'react'
 
+import catIcon from '../../assets/icons/cat.svg'
+import zlataPhoto from '../../assets/images/first-about-photo.jpg'
+import workPhoto from '../../assets/images/second-about-photo.PNG'
+
 import styles from './AboutSection.module.scss'
 
 const AboutSection: FC = () => {
@@ -9,7 +13,7 @@ const AboutSection: FC = () => {
         Обо <span className={styles.titleWord}>мне</span>
       </h1>
       <div className={styles.photoBlock}>
-        {/* <img className={styles.firstAboutPhoto} src={zlataPhoto} alt="me" /> */}
+        <img className={styles.firstPhoto} src={zlataPhoto} alt="me" />
         <div className={styles.firstFrame}></div>
         <div className={styles.textBlock}>
           <p className={styles.description}>
@@ -26,9 +30,10 @@ const AboutSection: FC = () => {
             атмосфера, ароматный чай и вкусняшки.
           </p>
         </div>
-        {/* <img className={styles.secondAboutPhoto} src={zlataPhoto} alt="me" /> */}
+        <img className={styles.secondPhoto} src={workPhoto} alt="me" />
         <div className={styles.secondFrame}></div>
       </div>
+      <img className={styles.cat} src={catIcon} alt="cat" />
     </div>
   )
 }
