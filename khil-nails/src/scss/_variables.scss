@@ -2,8 +2,10 @@
 
 :root[data-theme='light'] {
   --white-color: #fffcf9;
+  --light-color: #fffcf9;
   --black-color: #000;
   --brown-color: #30302c;
+  --shadow-dark-color: rgba(6, 10, 13, 0.173);
   --light-brown-color: #c6b49e;
 
   --font-family-roboto: 'Roboto', normal;
@@ -19,9 +21,11 @@
 }
 
 :root[data-theme='dark'] {
-  --white-color: #000;
+  --white-color: #30302c;
+  --light-color: #fffcf9;
   --black-color: #fffcf9;
   --brown-color: #fffcf9;
+  --shadow-dark-color: rgba(6, 10, 13, 0.173);
   --light-brown-color: #c6b49e;
 
   --font-family-roboto: 'Roboto', normal;
