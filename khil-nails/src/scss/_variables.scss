@@ -3,7 +3,8 @@
 :root[data-theme='light'] {
   --white-color: #fffcf9;
   --black-color: #000;
-  --brown-color: #c6b49e;
+  --brown-color: #30302c;
+  --light-brown-color: #c6b49e;
 
   --font-family-roboto: 'Roboto', normal;
 
@@ -20,7 +21,8 @@
 :root[data-theme='dark'] {
   --white-color: #000;
   --black-color: #fffcf9;
-  --brown-color: #c6b49e;
+  --brown-color: #fffcf9;
+  --light-brown-color: #c6b49e;
 
   --font-family-roboto: 'Roboto', normal;
 

@@ -1,6 +1,6 @@
 .wrapper {
   align-items: center;
-  border-right: 4px solid var(--brown-color);
+  border-right: 4px solid var(--light-brown-color);
   display: flex;
   justify-content: center;
   height: 80px;
@@ -18,13 +18,13 @@
 }
 
 .link {
-  color: var(--black-color);
+  color: var(--brown-color);
   font: var(--font-text-3);
   position: relative;
   text-decoration: none;
 
   &:before {
-    background-color: var(--brown-color);
+    background-color: var(--light-brown-color);
     bottom: -10%;
     content: '';
     height: 2px;

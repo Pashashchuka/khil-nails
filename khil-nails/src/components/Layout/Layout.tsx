@@ -13,7 +13,7 @@ const Layout: FC<LayotProps> = (props) => {
   return (
     <div className={styles.layout}>
       <Header />
-      <div>{props.children}</div>
+      {props.children}
       <Footer />
     </div>
   )
