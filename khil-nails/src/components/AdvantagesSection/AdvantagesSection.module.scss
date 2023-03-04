@@ -14,7 +14,7 @@
   margin-top: 80px;
   text-transform: uppercase;
   text-align: left;
-  width: 55%;
+  width: 73%;
 }
 
 .titleWord {
@@ -24,21 +24,15 @@
 
 .advantagesBlock {
   display: flex;
-  flex-direction: row;
-  gap: 5px;
-  margin-bottom: 60px;
-}
-
-.lineBlock {
-  display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
+  margin-bottom: 60px;
 }
 
 .line {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 40px;
 }
 
 .card {
@@ -47,6 +41,7 @@
   display: flex;
   justify-content: center;
   height: 120px;
+  position: relative;
   width: 400px;
 }
 
@@ -63,4 +58,12 @@
   right: 0;
   transform: scaleX(-1);
   width: 60px;
+}
+
+.icon {
+  color: var(--light-brown-color) !important;
+  height: 80px !important;
+  position: absolute;
+  top: -35%;
+  width: 80px !important;
 }
