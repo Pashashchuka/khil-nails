@@ -1,0 +1,40 @@
+.wrapper {
+  align-items: center;
+  border-right: 4px solid var(--light-brown-color);
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.menuList {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--brown-color);
+  font: var(--font-text-3);
+  position: relative;
+  text-decoration: none;
+
+  &:before {
+    background-color: var(--light-brown-color);
+    bottom: -10%;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: width 0.5s;
+    width: 0;
+  }
+
+  &:hover:before {
+    width: 100%;
+  }
+}
