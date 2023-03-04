@@ -4,6 +4,7 @@ import Layout from '../../components/Layout'
 import AboutSection from '../../components/AboutSection'
 import GreetingSection from '../../components/GreetingSection'
 import PortfolioSection from '../../components/PortfolioSection'
+import AdvantagesSection from '../../components/AdvantagesSection'
 
 import styles from './HomePage.module.scss'
 
@@ -14,6 +15,7 @@ const HomePage: FC = () => {
         <GreetingSection />
         <AboutSection />
         <PortfolioSection />
+        <AdvantagesSection />
       </div>
     </Layout>
   )

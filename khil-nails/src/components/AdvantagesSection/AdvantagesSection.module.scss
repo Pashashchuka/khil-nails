@@ -1,0 +1,66 @@
+.block {
+  align-items: center;
+  border-bottom: 4px solid var(--light-brown-color);
+  border-right: 4px solid var(--light-brown-color);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  color: var(--brown-color);
+  margin-top: 80px;
+  text-transform: uppercase;
+  text-align: left;
+  width: 55%;
+}
+
+.titleWord {
+  color: var(--light-brown-color);
+  text-transform: uppercase;
+}
+
+.advantagesBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 60px;
+}
+
+.lineBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.card {
+  align-items: center;
+  background-color: var(--beige-color);
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 400px;
+}
+
+.text {
+  color: var(--brown-color);
+  font: var(--font-text-4);
+  font-weight: 700;
+}
+
+.cat {
+  bottom: 1%;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  transform: scaleX(-1);
+  width: 60px;
+}
