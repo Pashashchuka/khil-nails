@@ -8,17 +8,17 @@ const Header: FC = () => {
       <nav>
         <ul className={styles.navigation}>
           <li className={styles.menuList}>
-            <a className={styles.link} href="about">
+            <a className={styles.link} href="#about">
               Обо мне
             </a>
           </li>
           <li className={styles.menuList}>
-            <a className={styles.link} href="portfolio">
+            <a className={styles.link} href="#portfolio">
               Портфолио
             </a>
           </li>
           <li className={styles.menuList}>
-            <a className={styles.link} href="advantages">
+            <a className={styles.link} href="#advantages">
               Преимущества
             </a>
           </li>
