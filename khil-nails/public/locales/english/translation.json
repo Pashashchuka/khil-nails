@@ -1,4 +1,26 @@
 {
-    "notFound": "404 PAGE NOT FOUND",
-    "keepCalm": "Please, keep calm and return to the previous page"
+  "notFound": "404 PAGE NOT FOUND",
+  "keepCalm": "Please, keep calm and return to the previous page",
+  "aboutMe": "About me",
+  "portfolio": "Portfolio",
+  "advantages": "Advantages",
+  "greeting": "I will delight you with a new manicure and a cozy atmosphere",
+  "signUp": "Sing up",
+  "about": "About",
+  "me": "me",
+  "firstDescriptionText": "My name is Zlata and for more than 4 years I have been doing what I love on a professional level.",
+  "secondDescriptionText": "At the beginning of my career, I took many manicure courses, pedicure and also to this day I study and more and more I improve in my profession.",
+  "thirdDescriptionText": "I will be glad to become your manicure master, but I feel cozy atmosphere, fragrant tea and tasty treats.",
+  "my": "my",
+  "jobs": "Portfolio",
+  "seeMore": "See more",
+  "whyChoose": "Why choose",
+  "chooseMe": "me",
+  "firstAdvantage": "I do work quickly and efficiently",
+  "secondAdvantage": "In my work I use only professional tools",
+  "thirdAdvantage": "I can make any design of your choice.",
+  "fourAdvantage": "All instruments undergo two-stage sterilization",
+  "name": "Zlata Khilmon",
+  "location": "Minsk, Belarus",
+  "instagram": "Instagram"
 }

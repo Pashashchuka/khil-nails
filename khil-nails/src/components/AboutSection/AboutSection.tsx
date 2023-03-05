@@ -1,3 +1,4 @@
+import { t } from 'i18next'
 import { FC } from 'react'
 
 import catIcon from '../../assets/icons/cat.svg'
@@ -10,25 +11,15 @@ const AboutSection: FC = () => {
   return (
     <section id="about" className={styles.block}>
       <h1 className={styles.title}>
-        Обо <span className={styles.titleWord}>мне</span>
+        {t('about')} <span className={styles.titleWord}>{t('me')}</span>
       </h1>
       <div className={styles.photoBlock}>
         <img className={styles.firstPhoto} src={zlataPhoto} alt="me" />
         <div className={styles.firstFrame}></div>
         <div className={styles.textBlock}>
-          <p className={styles.description}>
-            Меня зовут Злата и уже более 4 лет я занимаюсь любимым делом на
-            профессиональном уровне.
-          </p>
-          <p className={styles.description}>
-            В начале своей карьеры я проходила множество курсов по маникюру,
-            педикюру а так же и по сей день я изучаю и всё больше
-            совершенствуюсь в своей профессии.
-          </p>
-          <p className={styles.description}>
-            Буду рада стать вашим мастером по маникюру, а с меня уютная
-            атмосфера, ароматный чай и вкусняшки.
-          </p>
+          <p className={styles.description}>{t('firstDescriptionText')}</p>
+          <p className={styles.description}>{t('secondDescriptionText')}</p>
+          <p className={styles.description}>{t('thirdDescriptionText')}</p>
         </div>
         <img className={styles.secondPhoto} src={workPhoto} alt="me" />
         <div className={styles.secondFrame}></div>
