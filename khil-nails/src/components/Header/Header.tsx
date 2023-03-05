@@ -1,10 +1,13 @@
 import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { useHeader } from './hooks'
+
 import styles from './Header.module.scss'
 
 const Header: FC = () => {
   const { t } = useTranslation()
+  const { isRussian, handleClickBtn } = useHeader()
 
   return (
     <div className={styles.wrapper}>
@@ -27,6 +30,11 @@ const Header: FC = () => {
           </li>
         </ul>
       </nav>
+      <div className={styles.btnBlock}>
+        <button onClick={handleClickBtn} className={styles.btn}>
+          {isRussian ? t('ru') : t('en')}
+        </button>
+      </div>
     </div>
   )
 }
