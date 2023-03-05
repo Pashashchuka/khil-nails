@@ -1,16 +1,18 @@
 import { FC } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 
 import styles from './404Page.module.scss'
 
 const Page404: FC = () => {
+  const { t } = useTranslation()
   const navigate = useNavigate()
 
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.title}>404 PAGE NOT FOUND</h1>
+      <h1 className={styles.title}>{t('notFound')}</h1>
       <p onClick={() => navigate(-1)} className={styles.text}>
-        Please, keep kalm and return to the previous page
+        {t('keepCalm')}
       </p>
     </div>
   )
