@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import catIcon from '../../assets/icons/cat.svg'
 import firstNails from '../../assets/images/first-nails.jpg'
@@ -9,7 +10,6 @@ import thirdWideNails from '../../assets/images/third-wide-nails.jpg'
 import secondWideNails from '../../assets/images/second-wide-nails.jpg'
 
 import styles from './PortfolioSection.module.scss'
-import { NavLink } from 'react-router-dom'
 
 const PortfolioSection: FC = () => {
   return (
