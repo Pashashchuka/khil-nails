@@ -22,11 +22,6 @@ const Header: FC = () => {
               Преимущества
             </a>
           </li>
-          <li className={styles.menuList}>
-            <a className={styles.link} href="price">
-              Прайс-лист
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
