@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import TelegramIcon from '@mui/icons-material/Telegram'
+import { NavLink } from 'react-router-dom'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined'
 
@@ -15,15 +15,13 @@ const Footer: FC = () => {
       </div>
       <div className={styles.block}>
         <InstagramIcon className={styles.icon} />
-        <a className={styles.link} href="advantages">
+        <NavLink
+          className={styles.link}
+          to="https://www.instagram.com/khil_nails/"
+          target="_blank"
+        >
           Instagram
-        </a>
-      </div>
-      <div className={styles.block}>
-        <TelegramIcon className={styles.icon} />
-        <a className={styles.link} href="price">
-          Telegram
-        </a>
+        </NavLink>
       </div>
     </div>
   )

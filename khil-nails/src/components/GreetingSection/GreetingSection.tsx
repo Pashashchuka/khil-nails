@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import catIcon from '../../assets/icons/cat.svg'
 import zlataPhoto from '../../assets/images/photo-zlata.JPG'
@@ -12,7 +13,15 @@ export const GreetingSection: FC = () => {
         <h1 className={styles.title}>
           Порадую вас новым маникюром и уютной атмосферой
         </h1>
-        <button className={styles.btn}>Записаться</button>
+        <button className={styles.btn}>
+          <NavLink
+            className={styles.link}
+            to="https://www.instagram.com/khil_nails/"
+            target="_blank"
+          >
+            Записаться
+          </NavLink>
+        </button>
       </div>
       <div className={styles.photoBlock}>
         <img className={styles.photo} src={zlataPhoto} alt="me" />
@@ -24,4 +33,3 @@ export const GreetingSection: FC = () => {
 }
 
 export default GreetingSection
-

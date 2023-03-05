@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import catIcon from '../../assets/icons/cat.svg'
 import firstNails from '../../assets/images/first-nails.jpg'
@@ -30,7 +31,15 @@ const PortfolioSection: FC = () => {
           <img className={styles.photo} src={thirdNails} alt="nails" />
         </div>
       </div>
-      <button className={styles.btn}>Больше работ</button>
+      <button className={styles.btn}>
+        <NavLink
+          className={styles.link}
+          to="https://www.instagram.com/khil_nails/"
+          target="_blank"
+        >
+          Больше работ
+        </NavLink>
+      </button>
       <img className={styles.cat} src={catIcon} alt="cat" />
     </section>
   )
