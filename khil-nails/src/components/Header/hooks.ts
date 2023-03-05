@@ -4,8 +4,6 @@ import { useTranslation } from 'react-i18next'
 export const useHeader = () => {
   const { i18n } = useTranslation()
 
-  const actualLanguage = localStorage.getItem('i18nextLng')
-
   const [isRussian, setIsRussian] = useState<boolean>(false)
 
   const handleClickBtn = () => {
@@ -14,7 +12,7 @@ export const useHeader = () => {
 
   useEffect(() => {
     isRussian ? i18n.changeLanguage('russian') : i18n.changeLanguage('english')
-  }, [i18n, actualLanguage, isRussian])
+  }, [i18n, isRussian])
 
   return {
     isRussian,
