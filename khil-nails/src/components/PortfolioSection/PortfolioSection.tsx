@@ -9,6 +9,7 @@ import thirdWideNails from '../../assets/images/third-wide-nails.jpg'
 import secondWideNails from '../../assets/images/second-wide-nails.jpg'
 
 import styles from './PortfolioSection.module.scss'
+import { NavLink } from 'react-router-dom'
 
 const PortfolioSection: FC = () => {
   return (
@@ -30,7 +31,15 @@ const PortfolioSection: FC = () => {
           <img className={styles.photo} src={thirdNails} alt="nails" />
         </div>
       </div>
-      <button className={styles.btn}>Больше работ</button>
+      <button className={styles.btn}>
+        <NavLink
+          className={styles.link}
+          to="https://www.instagram.com/khil_nails/"
+          target="_blank"
+        >
+          Больше работ
+        </NavLink>
+      </button>
       <img className={styles.cat} src={catIcon} alt="cat" />
     </section>
   )
