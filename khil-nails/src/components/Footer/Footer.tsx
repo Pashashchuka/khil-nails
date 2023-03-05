@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import { NavLink } from 'react-router-dom'
-import TelegramIcon from '@mui/icons-material/Telegram'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined'
 
