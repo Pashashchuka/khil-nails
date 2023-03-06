@@ -2,6 +2,7 @@ import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { useHeader } from './hooks'
+import ThemeSwitcher from '../ThemeSwitcher'
 
 import styles from './Header.module.scss'
 
@@ -30,7 +31,8 @@ const Header: FC = () => {
           </li>
         </ul>
       </nav>
-      <div className={styles.btnBlock}>
+      <div className={styles.settingsBlock}>
+        <ThemeSwitcher />
         <button onClick={handleClickBtn} className={styles.btn}>
           {isRussian ? t('ru') : t('en')}
         </button>
