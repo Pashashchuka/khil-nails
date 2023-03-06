@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 import catIcon from '../../assets/icons/cat.svg'
 import firstNails from '../../assets/images/first-nails.jpg'
@@ -12,10 +13,12 @@ import secondWideNails from '../../assets/images/second-wide-nails.jpg'
 import styles from './PortfolioSection.module.scss'
 
 const PortfolioSection: FC = () => {
+  const { t } = useTranslation()
+
   return (
     <section id="portfolio" className={styles.block}>
       <h1 className={styles.title}>
-        Мои <span className={styles.titleWord}>работы</span>
+        {t('my')} <span className={styles.titleWord}>{t('jobs')}</span>
       </h1>
       <div className={styles.photoBlock}>
         <div className={styles.photoLine}>
@@ -37,7 +40,7 @@ const PortfolioSection: FC = () => {
           to="https://www.instagram.com/khil_nails/"
           target="_blank"
         >
-          Больше работ
+          {t('seeMore')}
         </NavLink>
       </button>
       <img className={styles.cat} src={catIcon} alt="cat" />
