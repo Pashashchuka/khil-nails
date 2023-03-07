@@ -6,6 +6,7 @@
   --beige-color: #fff3e1;
   --black-color: #000;
   --brown-color: #30302c;
+  --dark-color: #30302c;
   --shadow-dark-color: rgba(6, 10, 13, 0.173);
   --light-brown-color: #c6b49e;
 
@@ -24,9 +25,10 @@
 :root[data-theme='dark'] {
   --white-color: #30302c;
   --light-color: #fffcf9;
-  --beige-color: #fff3e1;
+  --beige-color: #ffe6c0;
   --black-color: #fffcf9;
   --brown-color: #fffcf9;
+  --dark-color: #30302c;
   --shadow-dark-color: rgba(6, 10, 13, 0.173);
   --light-brown-color: #c6b49e;
 

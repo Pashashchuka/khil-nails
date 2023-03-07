@@ -41,9 +41,11 @@
   }
 }
 
-.btnBlock {
+.settingsBlock {
+  align-items: center;
   display: flex;
-  justify-content: end;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .btn {
