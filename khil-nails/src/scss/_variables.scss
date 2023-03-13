@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root[data-theme='light'] {
+  --white-color: #fffcf9;
+  --light-color: #fffcf9;
+  --beige-color: #fff3e1;
+  --black-color: #000;
+  --brown-color: #30302c;
+  --dark-color: #30302c;
+  --shadow-dark-color: rgba(6, 10, 13, 0.173);
+  --light-brown-color: #c6b49e;
+
+  --font-family-roboto: 'Roboto', normal;
+
+  --font-h1: 600 64px var(--font-family-roboto);
+  --font-h2: 600 52px var(--font-family-roboto);
+  --font-h3: 600 36px var(--font-family-roboto);
+
+  --font-text-1: 600 30px var(--font-family-roboto);
+  --font-text-2: 400 24px var(--font-family-roboto);
+  --font-text-3: 400 18px var(--font-family-roboto);
+  --font-text-4: 400 12px var(--font-family-roboto);
+}
+
+:root[data-theme='dark'] {
+  --white-color: #30302c;
+  --light-color: #fffcf9;
+  --beige-color: #ffe6c0;
+  --black-color: #fffcf9;
+  --brown-color: #fffcf9;
+  --dark-color: #30302c;
+  --shadow-dark-color: rgba(6, 10, 13, 0.173);
+  --light-brown-color: #c6b49e;
+
+  --font-family-roboto: 'Roboto', normal;
+
+  --font-h1: 600 64px var(--font-family-roboto);
+  --font-h2: 600 52px var(--font-family-roboto);
+  --font-h3: 600 36px var(--font-family-roboto);
+
+  --font-text-1: 600 30px var(--font-family-roboto);
+  --font-text-2: 400 24px var(--font-family-roboto);
+  --font-text-3: 400 18px var(--font-family-roboto);
+  --font-text-4: 400 12px var(--font-family-roboto);
+}
