@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
+import { ReactComponent as HeartIcon } from '../../assets/icons/heart.svg'
+
 import styles from './Footer.module.scss'
 
 const Footer: FC = () => {
@@ -12,7 +14,10 @@ const Footer: FC = () => {
 
   return (
     <div className={styles.wrapper}>
-      <p className={styles.text}>{t('name')}</p>
+      <div className={styles.block}>
+        <HeartIcon className={styles.heart__icon} />
+        <p className={styles.text}>{t('name')}</p>
+      </div>
       <div className={styles.block}>
         <LocationOnOutlinedIcon className={styles.icon} />
         <p className={styles.text}>{t('location')}</p>

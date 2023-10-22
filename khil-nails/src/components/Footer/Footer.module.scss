@@ -21,6 +21,15 @@
   width: 25px;
 }
 
+.heart__icon {
+  height: 25px;
+  width: 25px;
+
+  path {
+    stroke: var(--light-brown-color);
+  }
+}
+
 .text {
   color: var(--brown-color);
   font: var(--font-text-3);
