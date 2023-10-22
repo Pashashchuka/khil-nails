@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 
-import { useAppDispatch } from '../../store'
-import { setTheme } from '../../store/actions'
 import { selectTheme } from '../../store/selectors'
+import { setTheme } from '../../store/actions'
+import { useAppDispatch } from '../../store'
 
 export const useThemeSwitcher = () => {
   const dispatch = useAppDispatch()

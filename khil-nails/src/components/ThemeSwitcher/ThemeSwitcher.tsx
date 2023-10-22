@@ -1,6 +1,7 @@
 import { FC } from 'react'
-import Switch from '@mui/material/Switch'
+
 import { styled } from '@mui/material/styles'
+import Switch from '@mui/material/Switch'
 
 import { useThemeSwitcher } from './hooks'
 
@@ -31,7 +32,7 @@ const ThemeSwitcher: FC = () => {
       },
     },
     '& .MuiSwitch-thumb': {
-      backgroundColor: theme.palette.mode === 'dark' ? '#c6b49e' : '#c6b49e',
+      backgroundColor: '#c6b49e',
       width: 32,
       height: 32,
       '&:before': {
