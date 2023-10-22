@@ -1,8 +1,8 @@
 import { FC } from 'react'
 import { Provider } from 'react-redux'
 
-import store from './store'
 import Router from './router'
+import store from './store'
 
 const App: FC = () => {
   return (

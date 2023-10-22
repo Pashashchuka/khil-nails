@@ -1,9 +1,10 @@
 import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
-import DoneAllIcon from '@mui/icons-material/DoneAll'
-import AccessTimeIcon from '@mui/icons-material/AccessTime'
-import SanitizerOutlinedIcon from '@mui/icons-material/SanitizerOutlined'
+
 import ThumbUpOffAltOutlinedIcon from '@mui/icons-material/ThumbUpOffAltOutlined'
+import SanitizerOutlinedIcon from '@mui/icons-material/SanitizerOutlined'
+import AccessTimeIcon from '@mui/icons-material/AccessTime'
+import DoneAllIcon from '@mui/icons-material/DoneAll'
 
 import catIcon from '../../assets/icons/cat.svg'
 

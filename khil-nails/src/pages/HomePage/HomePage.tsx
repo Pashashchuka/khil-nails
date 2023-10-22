@@ -1,10 +1,10 @@
 import { FC } from 'react'
 
-import Layout from '../../components/Layout'
-import AboutSection from '../../components/AboutSection'
-import GreetingSection from '../../components/GreetingSection'
-import PortfolioSection from '../../components/PortfolioSection'
 import AdvantagesSection from '../../components/AdvantagesSection'
+import PortfolioSection from '../../components/PortfolioSection'
+import GreetingSection from '../../components/GreetingSection'
+import AboutSection from '../../components/AboutSection'
+import Layout from '../../components/Layout'
 
 import styles from './HomePage.module.scss'
 

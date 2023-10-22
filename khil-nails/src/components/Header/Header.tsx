@@ -2,6 +2,7 @@ import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { useHeader } from './hooks'
+
 import ThemeSwitcher from '../ThemeSwitcher'
 
 import styles from './Header.module.scss'

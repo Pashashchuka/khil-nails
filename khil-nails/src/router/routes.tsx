@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
 import { PATHS } from './paths'
+
 import HomePage from '../pages/HomePage'
 import ErrorPage from '../pages/404Page'
 

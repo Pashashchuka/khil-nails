@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import catIcon from '../../assets/icons/cat.svg'
-import zlataPhoto from '../../assets/images/first-about-photo.jpg'
 import workPhoto from '../../assets/images/second-about-photo.PNG'
+import zlataPhoto from '../../assets/images/first-about-photo.jpg'
+import catIcon from '../../assets/icons/cat.svg'
 
 import styles from './AboutSection.module.scss'
 

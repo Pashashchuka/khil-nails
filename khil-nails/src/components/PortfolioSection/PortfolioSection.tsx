@@ -1,14 +1,14 @@
 import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { NavLink } from 'react-router-dom'
 
-import catIcon from '../../assets/icons/cat.svg'
-import firstNails from '../../assets/images/first-nails.jpg'
-import thirdNails from '../../assets/images/third-nails.jpg'
-import secondNails from '../../assets/images/second-nails.jpg'
+import secondWideNails from '../../assets/images/second-wide-nails.jpg'
 import firstWideNails from '../../assets/images/first-wide-nails.jpg'
 import thirdWideNails from '../../assets/images/third-wide-nails.jpg'
-import secondWideNails from '../../assets/images/second-wide-nails.jpg'
+import secondNails from '../../assets/images/second-nails.jpg'
+import thirdNails from '../../assets/images/third-nails.jpg'
+import firstNails from '../../assets/images/first-nails.jpg'
+import catIcon from '../../assets/icons/cat.svg'
 
 import styles from './PortfolioSection.module.scss'
 

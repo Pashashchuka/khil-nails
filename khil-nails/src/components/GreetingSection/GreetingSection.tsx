@@ -1,9 +1,9 @@
 import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { NavLink } from 'react-router-dom'
 
-import catIcon from '../../assets/icons/cat.svg'
 import zlataPhoto from '../../assets/images/photo-zlata.JPG'
+import catIcon from '../../assets/icons/cat.svg'
 
 import styles from './GreetingSection.module.scss'
 

@@ -1,8 +1,9 @@
 import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import InstagramIcon from '@mui/icons-material/Instagram'
+import { NavLink } from 'react-router-dom'
+
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined'
+import InstagramIcon from '@mui/icons-material/Instagram'
 
 import styles from './Footer.module.scss'
 

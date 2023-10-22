@@ -2,8 +2,8 @@ import { useDispatch } from 'react-redux'
 import thunkMiddleware from 'redux-thunk'
 import { createStore, compose, applyMiddleware } from 'redux'
 
-import rootReducer from './reducers'
 import { AppThunkDispatch } from './types'
+import rootReducer from './reducers'
 
 declare global {
   interface Window {
